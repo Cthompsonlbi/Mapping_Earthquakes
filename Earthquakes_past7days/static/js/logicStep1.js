@@ -19,13 +19,13 @@ let satelliteStreets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/sate
 // Create a base layer that holds both maps.
 let baseMaps = {
     "Streets": streets,
-    "Satellite Streets": satelliteStreets,
+    "Satellite": satelliteStreets,
 };
 
 // //Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
-    center: [43.7, -79.3],
-    zoom: 11,
+    center: [39.5, -98.5],
+    zoom: 3,
     layers: [streets]
 });
 
@@ -33,26 +33,28 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 
-let torontoHoods = "https://raw.githubusercontent.com/cthompsonlbi/Mapping_Earthquakes/main/torontoNeighborhoods.json";
-//Create a style for the lines
-let mStyle = {
-    color: "blue",
-    fillColor: "yellow",
-    weight: 1,
-}
+// let torontoHoods = "https://raw.githubusercontent.com/cthompsonlbi/Mapping_Earthquakes/main/torontoNeighborhoods.json";
+// //Create a style for the lines
+// let mStyle = {
+//     color: "blue",
+//     fillColor: "yellow",
+//     weight: 1,
+// }
 
 
 //Grabbing our GeoJSON data.
-d3.json(torontoHoods).then(function (data) {
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson").then(function (data) {
     console.log(data);
+    //Creating a GeoJSON layer with the retrieved data
+    L.geoJSON(data).addTo(map);
     //Creating a GeoJSON layer with the retrieved data.
-    L.geoJSON(data, {
-        style: mStyle,
-        //     //}).addTo(map);
-        //     // L.geoJSON(data, {
-        onEachFeature: function (features, layer) {
-        console.log(layer);
-        layer.bindPopup("<h3> Neighborhood: " + features.properties.AREA_NAME + "</h3>");
-             }
-        }).addTo(map);
+    // L.geoJSON(data, {
+    //     style: mStyle,
+    //     //     //}).addTo(map);
+    //     //     // L.geoJSON(data, {
+    //     onEachFeature: function (features, layer) {
+    //     console.log(layer);
+    //     layer.bindPopup("<h3> Neighborhood: " + features.properties.AREA_NAME + "</h3>");
+    //          }
+    //     }).addTo(map);
 });
