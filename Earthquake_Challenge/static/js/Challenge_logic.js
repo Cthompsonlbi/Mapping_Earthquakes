@@ -30,6 +30,8 @@ let baseMaps = {
 
 // 1. Add a 2nd layer group for the tectonic plate data.
 let allEarthquakes = new L.LayerGroup();
+
+//D1 deliverable, variable for new LayerGroup for tectonicPlates
 let tectonicPlates = new L.LayerGroup();
 
 
@@ -143,9 +145,10 @@ legend.onAdd = function() {
 
 
   // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
+  // D1 deliverable code that returns data from tectonic json file located on directory
 
- d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(data) {
-   console.log(data);
+ d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(tect_data) {
+   console.log(tect_data);
 
     L.geoJson(data, {
       color: "orangered",
