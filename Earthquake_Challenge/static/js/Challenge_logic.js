@@ -150,7 +150,7 @@ legend.onAdd = function() {
  d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(tect_data) {
    console.log(tect_data);
 
-    L.geoJson(data, {
+    L.geoJson(tect_data, {
       color: "orangered",
       weight: 3
     }).addTo(tectonicPlates);
