@@ -3,6 +3,8 @@ Mod13
 
 *** PLEASE REFERENCE FOLDER EARTHQUAKE_CHALLENGE and not ARCHIVE/EARTHQUAKES_CHALLENGE ***
 
+*** Config Files Removede ***
+
 ## Overview of Project:
 
 The overview of this project is to create a visually stimulating webpage that will allow the user to interact with the webpage.  They will be able to select from multiple map styles and overlay information regarding tectonic plates and earthquakes with varying magnitudes. We will achieve this by using JavaScript, CSS and HTML to refrence to JSON files from multiple websites.
