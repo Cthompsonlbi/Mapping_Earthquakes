@@ -175,7 +175,13 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
         console.log(data);
         return L.circleMarker(latlng);
       },
-      style: styleInfo
+      style: styleInfo,
+
+      //bind popup and add info
+      onEachFeature: function(feature, layer) {
+        layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
+      }
+
   }).addTo(majEarthquake);  
   });
   // 8. Deliverable 2 Add the major earthquakes layer to the map.
