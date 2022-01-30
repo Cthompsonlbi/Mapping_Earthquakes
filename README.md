@@ -14,7 +14,7 @@ The purpose of this project is to create a webpage with direction from Basil and
 
 The following screenshots will highlight the code aspect of the project to highlight certain features from the webpage shown above:
 
-* Most of the webpage functionality, from the users standpoint can be controlled using this map layer control feature.
+* Most of the webpage functionality, from the user's standpoint can be controlled using this map layer control feature.
 
 ![MapLayerControl](Earthquake_Challenge/resources/MapLayerControl.png)
 
@@ -49,9 +49,9 @@ The following screenshots will highlight the code aspect of the project to highl
 
 ## Results:
 
-The result is a visually appealing webpage with nice functionality.  It is user friendly and inviting and has the look and feel of well thought out and designed webpage.  It allows the user to interact with the webpage to modify the type of map and the information that overlays these mmaps.  It delivers upon all of Basil and Sadhana's request and requirements.
+The result is a visually appealing webpage with nice functionality.  It is user friendly and inviting and has the look and feel of well thought out and designed webpage.  It allows the user to interact with the webpage to modify the type of map and the information that overlays these maps.  It delivers upon all of Basil and Sadhana's request and requirements.
 
 ## Summary:
-This was an interesting project and I learned a lot.  I see many opportunities to use what I learned from this project with my current position at my company in my current role.
+This was an interesting project, and I learned a lot.  I see many opportunities to use what I learned from this project with my current position at my company in my current role.
 
-Something that I saw would be an interesting add-on to this project would be the addition of a GeoJSON layer for volcanoes.  Agreed, that volcanoes do not fall in the focus of this project, which has it's focus on earthquakes but, it would be interesting to see this correlation.  Perhaps it is something that I could circle back after bootcamp and try out myself.
+Something that I saw would be an interesting add-on to this project would be the addition of a GeoJSON layer for volcanoes.  Agreed, that volcanoes do not fall in the focus of this project, which has its focus on earthquakes but, it would be interesting to see this correlation.  Perhaps it is something that I could circle back after bootcamp and try out myself.
