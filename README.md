@@ -27,7 +27,7 @@ The following screenshots will highlight the code aspect of the project to highl
 
 ![addMapandLayer](Earthquake_Challenge/resources/addMapandLayer.png)
 
-* Now the code below, allows us to access created maps to pull into our webpage for use in our display.  The API links below will be what is displayed when the user changes map selection.
+* Now the code below, allows us to access created maps to pull into our webpage for use in our display.  The API links below is what is displayed when the user changes map selection.
 
 ![maplayers](Earthquake_Challenge/resources/maplayers.png)
 
