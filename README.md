@@ -23,13 +23,13 @@ The following screenshots will highlight the code aspect of the project to highl
 ![overlays](Earthquake_Challenge/resources/overlays.png)
 ![baselayer3maps](Earthquake_Challenge/resources/baselayer3maps.png)
 
-* The table will be fully populated upon the loading of the webpage
+* This code snippet will place the control for the base maps and overlays in the control box.
 
-![InitialTablePop](resources/InitialTablePop.png)
+![addMapandLayer](Earthquake_Challenge/resources/addMapandLayer.png)
 
-* Now the code below, using d3.selectAll event listener, will detect and change to the input field and store it to the filters variable and later update the table using the update Filters Function.
+* Now the code below, allows us to access created maps to pull into our webpage for use in our display.  The API links below will be what is displayed when the user changes map selection.
 
-![filterTableFunc](resources/filterTableFunc.png)
+![maplayers](Earthquake_Challenge/resources/maplayers.png)
 
 * One example of this code in action is by filter upon my hometown of Port St. Lucie Fl.  As you see below, when Port St Lucie is entered into the field:
 
