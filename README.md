@@ -23,7 +23,7 @@ The following screenshots will highlight the code aspect of the project to highl
 ![overlays](Earthquake_Challenge/resources/overlays.png)
 ![baselayer3maps](Earthquake_Challenge/resources/baselayer3maps.png)
 
-* This code snippet will place the control for the base maps and overlays in the control box.
+* This code snippet below will place the control for the base maps and overlays in the control box.
 
 ![addMapandLayer](Earthquake_Challenge/resources/addMapandLayer.png)
 
