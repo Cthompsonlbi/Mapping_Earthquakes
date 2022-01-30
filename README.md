@@ -54,4 +54,4 @@ The result is a visually appealing webpage with nice functionality.  It is user 
 ## Summary:
 This was an interesting project, and I learned a lot.  I see many opportunities to use what I learned from this project with my current position at my company in my current role.
 
-Something that I saw would be an interesting add-on to this project would be the addition of a GeoJSON layer for volcanoes.  Agreed, that volcanoes do not fall in the focus of this project, which has its focus on earthquakes but, it would be interesting to see this correlation.  Perhaps it is something that I could circle back after bootcamp and try out myself.
+Something that would be an interesting add-on to this project is the addition of a GeoJSON layer for volcanoes.  Agreed, that volcanoes do not fall in the focus of this project, which has its focus on earthquakes but, it would be interesting to see the correlation between earthquakes, tectonic plates and volcanoes.  Perhaps it is something that I could circle back after bootcamp and try myself.
