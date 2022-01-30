@@ -10,15 +10,18 @@ The purpose of this project is to create a webpage with direction from Basil and
 
 * Screenshot of webpage with layer, map options, and Popup selected:
 
-![index_html_5fields](resources/index_html_5fields.png)
+![webpage.png](Earthquake_Challenge/resources/webpage.png)
 
-* When loaded, the user will see five input fields to help them search for specific UFO sightings.
+The following screenshots will highlight the code aspect of the project to highlight certain features from the webpage shown above:
 
-![filterSearch](resources/filterSearch.png)
+* Most of the webpage functionality, from the users standpoint can be controlled using this map layer control feature.
 
-* The table will be built using the function created below:
+![MapLayerControl](Earthquake_Challenge/resources/MapLayerControl.png)
 
-![buildTableFunc](resources/buildTableFunc.png)
+* The following two snippets of code provide the naming of the maps and overlays that will be displayed in the control box feature above:
+
+![overlays](Earthquake_Challenge/resources/overlays.png)
+![baselayer3maps](Earthquake_Challenge/resources/baselayer3maps.png)
 
 * The table will be fully populated upon the loading of the webpage
 
