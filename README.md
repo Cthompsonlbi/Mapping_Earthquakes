@@ -31,36 +31,27 @@ The following screenshots will highlight the code aspect of the project to highl
 
 ![maplayers](Earthquake_Challenge/resources/maplayers.png)
 
-* One example of this code in action is by filter upon my hometown of Port St. Lucie Fl.  As you see below, when Port St Lucie is entered into the field:
+* The snippet below shows the use of d3 GeoJSON to access a JSON file and pull it into the webpage for use.  The snippet below shows code used to access the JSON file for earthquakes with a magnitude of 4.5 or greater.  There were two other created to access the data for tectonic plates and all earthquakes in the past seven days.
 
-![pslFilter](resources/pslFilter.png)
+![d3JSONfileAccess](Earthquake_Challenge/resources/d3JSONfileAccess.png)
 
-* The result of that search lead to only one UFO sighting that met the requirement of Port St. Lucie
+* Below you will find the use of a function that controls the styling of the GeoJSON data added for earthquakes in the past seven days. It controls the size, shape, and colors of the circles added for each earthquake.
 
-![tableFIlterPSL](resources/tableFIlterPSL.png)
+![stylingfunctionAllEarthQuakes](Earthquake_Challenge/resources/stylingfunctionAllEarthQuakes.png)
 
-* Now, let's repeat this but changing the city from Port St. Lucie to El Cajon. Now you can see multiple sighting returned by looking at the image below.
+* Now, let's repeat this but, using a function that controls the styling of the GeoJSON data added for earthquakes in the past with a magnitude of 4.5 or greater. It controls the size, shape, and colors of the circles added for each earthquake.
 
-![elcajon](resources/elcajon.png)
+![stylingfunctionMajEarthQuakes](Earthquake_Challenge/resources/stylingfunctionMajEarthQuakes.png)
 
-* To take this one step further, we can filter further to specifically look at sightings in El Cajon that have a shape of 'light'.  By modifying the 'city' field to El Cajon and the 'shape' field to return sightings characterized as lights, we see the following returned:
+* This snippet below adds a popup functionality of magnitude information and location to each point that was plotted and styled from the functions above:
 
-![elcajonlight](resources/elcajonlight.png)
+![PopupControl](Earthquake_Challenge/resources/PopupControl.png)
 
 ## Results:
 
-The result is a visually appealing webpage with nice functionality.  It is user friendly and inviting and has the look and feel of well thought out and designed webpage.  It can handle multiple inputs and can filter data based upon those inputs.  It delivers upon all of Dana's requests and requirements.
+The result is a visually appealing webpage with nice functionality.  It is user friendly and inviting and has the look and feel of well thought out and designed webpage.  It allows the user to interact with the webpage to modify the type of map and the information that overlays these mmaps.  It delivers upon all of Basil and Sadhana's request and requirements.
 
 ## Summary:
-This was an interesting project and learned a lot.  However, there are many drawbacks or opportunity for improvements.  Two of the drawbacks that could be addressed through additional coding are as follows:
+This was an interesting project and I learned a lot.  I see many opportunities to use what I learned from this project with my current position at my company in my current role.
 
-* Nothing in place to notify whether a parameter like, date, city, or country that is entered is valid.   
-* Formatting of the inputs.  Meaning the state, country, and dates need to be inputted exactly as it is stored in the data file.  
-
-To address this there are a couple of approaches that could be implemented. Those approaches are listed below: 
-
-* Error messaging.  If an user inputs and invalid date, city, country or shape or the input does not exist, a message should return stating that the "Input entered by the user does not exist, please modify your input and try again".  
-* Adding some "smarts" that handle date formatting, capitalization, and abbreviations for countries would be a nice add on feature to make the user experience better. 
-* Another option is to offer to return data based on a date range, or a radius.  If the user of the website did not put in a location that is present in the list of available data, it could return filtered data based on dates plus or minus seven days or if a city that is inputted by the user does not return an exact match then a radius option can be selected to return locations within the selected radius.
-
-These are just a couple of suggestions that could make the user want to use the webpage and lend itself to being a webpage that users would like to come back to and spend more time on.
+Something that I saw would be an interesting add-on to this project would be the addition of a GeoJSON layer for volcanoes.  Agreed, that volcanoes do not fall in the focus of this project, which has it's focus on earthquakes but, it would be interesting to see this correlation.  Perhaps it is something that I could circle back after bootcamp and try out myself.
