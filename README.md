@@ -31,7 +31,7 @@ The following screenshots will highlight the code aspect of the project to highl
 
 ![maplayers](Earthquake_Challenge/resources/maplayers.png)
 
-* The snippet below shows the use of d3 GeoJSON to access a JSON file and pull it into the webpage for use.  The snippet below shows code used to access the JSON file for earthquakes with a magnitude of 4.5 or greater.  There were two other created to access the data for tectonic plates and all earthquakes in the past seven days.
+* The snippet below shows the use of d3 GeoJSON to access a JSON file and pull it into the webpage for use.  The snippet below shows code used to access the JSON file for earthquakes with a magnitude of 4.5 or greater.  There were two other d3 GeoJSON's created to access the data for tectonic plates and all earthquakes in the past seven days.
 
 ![d3JSONfileAccess](Earthquake_Challenge/resources/d3JSONfileAccess.png)
 
